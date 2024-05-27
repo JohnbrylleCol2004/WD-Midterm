@@ -14,7 +14,7 @@
         font-family:arial;
     }
     .container_content{
-        background-image: url(./assets/img/ULAN.jpg);
+        background-image: url(../img/ULAN.jpg);
         background-size: cover;
         background-position: center;
         max-width: 100%;
