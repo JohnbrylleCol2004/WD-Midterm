@@ -11,8 +11,17 @@
     }
     .container{
         margin-bottom: 5rem;
-        font-family:;
+        font-family:arial;
     }
+    .container_content{
+        background-image: url(/assets/img/ULAN.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        padding-top: 10%;
+        margin-top: -5rem;
+    }
+
     .container_content .content .content-text h1{
         display: flex;
         justify-content: center;
@@ -30,6 +39,7 @@
         display: flex;
         justify-content: center;
         gap: 20px;
+        margin-top: -4rem;
     }
     .btn{
             text-decoration: none;
@@ -37,10 +47,11 @@
             background-color: #FFA500;
             padding: 10px 20px;
             border-radius: 5px;
+            border-radius: 3px;
             transition: background-color 0.5s;
             
         }
-    }
+    
     .btn hover{
         background-color: #FF6347;
     }
